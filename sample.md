@@ -9,10 +9,16 @@
 - C.Simple Inheritance
 - D.Multiple Inheritance
 
-<details><summary> Show Answer </summary>
-  Ans: B
+<details><summary> <b>Hint </b></summary>
   
-  explanation: Invisibility Cloak is a family heirloom for potters, A property is passed down from one class(generation) to another, this is a clear example of multilevel inheritance
+  Invisibility Cloak is an object and harry,james and herny are classes.
+  </details>
+
+<details><summary> <b>Show Answer</b> </summary>
+  
+  **Ans**: B
+  
+  **Explanation**: Invisibility Cloak is a family heirloom for potters, A property is passed down from one class(generation) to another, this is a clear example of multilevel inheritance
 </details>
 
 
@@ -20,17 +26,15 @@
 
 # Technical
 
-
-
-
 1. Is it possible to overload the main method? if yes, which of the main method is considered as the main thread and implemented first?![HARD](hard.jpg)
 
 
 
-<details><summary> Show Answer </summary>
-  Ans: Yes
+<details><summary> <b>Show Answer</b> </summary>
   
-  Explanation: the main method like any other method can be overloaded, in such a scenario, java launcher will search for "public static void main(String[] args)" implementes it first.
+  **Ans**: Yes
+  
+  **Explanation**: the main method like any other method can be overloaded, in such a scenario, java launcher will search for "public static void main(String[] args)" implementes it first.
   
 </details>
 
@@ -52,10 +56,11 @@
  
 
 
-<details><summary> Show Answer </summary>
-  Ans: 2
+<details><summary> <b>Show Answer</b> </summary>
   
-  Explanation:  In the "if" condition the value for var2 is changed to 1,Since var1 is not equal to var2, the else condition is implemented, in the else condition var2 is incremented by one, so the output is 2. 
+  **Ans**: 2
+  
+  **Explanation**:  In the "if" condition the value for var2 is changed to 1,Since var1 is not equal to var2, the else condition is implemented, in the else condition var2 is incremented by one, so the output is 2. 
   </details>
   
 
@@ -67,19 +72,15 @@
 ``` java
 public class Numbers{ 
 
-public static void main(String[] args)  { 
-
-        numbers(); 
-
-  } 
-static int printNumbers() { 
-   while(true) 
- { 
-   System.out.println(""Universe is Infinite""); 
-   } 
-   System.out.println(Integer.MAX_VALUE); 
+     public static void main(String[] args)  {
+            numbers(); 
      } 
-
+     static int printNumbers() { 
+          while(true) { 
+              System.out.println(""Universe is Infinite""); 
+          } 
+          System.out.println(Integer.MAX_VALUE); 
+     } 
 } 
 ```
   
@@ -90,10 +91,11 @@ static int printNumbers() {
   
   
   <details>
-  <summary> Show Answer </summary>
-  Ans: A
+  <summary> <b>Show Answer</b> </summary>
   
-  Explanation: the outcome of the program is the compile-time error and it's caused by the unreachable statement after the infinite while loop.
+  **Ans**: A
+  
+  **Explanation**: the outcome of the program is the compile-time error and it's caused by the unreachable statement after the infinite while loop.
   
   </details>
   
