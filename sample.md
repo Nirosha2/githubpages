@@ -1,8 +1,10 @@
-# Real Time Applications
+## Real Time Applications
 
 
 
-1. Harry potter's Invisibility cloak was passed down to him by his father James and James potter got it from his father Henry potter, this is a clear example for?  ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+1. Harry potter's Invisibility cloak was passed down to him by his father James and James potter got it from his father Henry potter, this is a clear example for?
+
+   ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 
 - A.Hybrid Inheritance
 - B.Multilevel Inheritance
@@ -24,9 +26,11 @@
 
 
 
-# Technical
+## Technical
 
-1. Is it possible to overload the main method? if yes, which of the main method is considered as the main thread and implemented first?![HARD](hard.jpg)
+1. Is it possible to overload the main method? if yes, which of the main method is considered as the main thread and implemented first?
+
+    ![HARD](hard.jpg)
 
 
 
@@ -34,13 +38,15 @@
   
   **Ans**: Yes
   
-  **Explanation**: the main method like any other method can be overloaded, in such a scenario, java launcher will search for "public static void main(String[] args)" implementes it first.
+  **Explanation**: the main method like any other method can be overloaded, in such a scenario, java launcher will search for "public static void main(String[] args)" and implementes it first.
   
 </details>
 
-# Probelm solving
+## Probelm solving
 
-1. Predict the output ![HARD](hard.jpg)
+1. Predict the output 
+
+    ![HARD](hard.jpg)
 ``` java
   class Selection {
         public static void main(String args[]){
@@ -65,9 +71,11 @@
   
 
 
-# Error Detection / Debugging
+## Error Detection / Debugging
 
-1. Predict the output of the program and debug the program.  ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg)       
+1. Predict the output of the program and debug the program.  
+
+    ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg)       
 
 ``` java
 public class Numbers{ 
@@ -77,7 +85,7 @@ public class Numbers{
      } 
      static int printNumbers() { 
           while(true) { 
-              System.out.println(""Universe is Infinite""); 
+              System.out.println("Universe is Infinite"); 
           } 
           System.out.println(Integer.MAX_VALUE); 
      } 
@@ -86,8 +94,8 @@ public class Numbers{
   
   - A.Compile time error
   - B.Runtime error
-  - C.No error
-  - D.none of the above.
+  - C.Universe is Infinite
+  - D.2147483647
   
   
   <details>
