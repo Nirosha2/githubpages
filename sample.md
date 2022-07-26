@@ -44,7 +44,7 @@
 
 ## Probelm solving
 
-1. Predict the output 
+1. Predict the output.
 
     ![HARD](hard.jpg)
 ``` java
