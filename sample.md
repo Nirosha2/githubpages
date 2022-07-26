@@ -13,6 +13,7 @@
 
 <details><summary> <b>Hint </b> :bulb:</summary>
   
+   
   Invisibility Cloak is an object and harry,james and herny are classes.
   </details>
 
