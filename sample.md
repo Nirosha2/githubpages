@@ -11,7 +11,7 @@
 - C.Simple Inheritance
 - D.Multiple Inheritance
 
-<details><summary> <b>Hint </b></summary>
+<details><summary> <b>Hint </b> :bulb:</summary>
   
   Invisibility Cloak is an object and harry,james and herny are classes.
   </details>
